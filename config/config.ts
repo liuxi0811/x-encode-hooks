@@ -18,7 +18,7 @@ export default {
       'fusion',
     ],
   ],
-  title: '印客学院 encode hooks',
+  title: 'TCL encode hooks',
   mode: 'site',
   favicon: '/encode-hooks/avatar.png',
   logo: '/encode-hooks/avatar.png',
