@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "dom"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": { //相对路径
+      "@/*": ["src/*"],
+      "encodeHooks": ["./packages/hooks/src/index.ts"],
+      "encode-hooks": ["./packages/hooks/src/index.ts"],
+      "encodeHooks/lib/*": ["./packages/hooks/src/*"],
+      "encode-hooks/lib/*": ["./packages/hooks/src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    // 跳过dts文件检查
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "importHelpers": true
+  },
+  // 不解析的文件夹
+  "exclude": ["node_modules", "lib", "es", "dist", "example"]
+}
