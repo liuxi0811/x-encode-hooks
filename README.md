@@ -57,10 +57,4 @@ npm install -g conventional-changelog-cli
 pnpm run changelog
 ```
 
-## 📧 联系
-
-- **TCL官网**: <http://encodestudio.cn>
-- **encode Hooks** <https://encode-studio-fe.github.io/encode-hooks/>
-- **GitHub**: <https://github.com/encode-studio-fe/encode-hooks>
-
 </br>
